@@ -19,10 +19,10 @@ public class MinutesBetweenHours {
         earlyH = fitToRegex(earlyH);
         lateH = fitToRegex(lateH);
 
-        final var earlyTime = LocalTime.parse(earlyH, TIME_FORMATTER);
-        final var laterTime = LocalTime.parse(lateH, TIME_FORMATTER);
+        final LocalTime earlyTime = LocalTime.parse(earlyH, TIME_FORMATTER);
+        final LocalTime laterTime = LocalTime.parse(lateH, TIME_FORMATTER);
 
-        final var timeDiff = ChronoUnit.MINUTES.between(earlyTime, laterTime);
+        final long timeDiff = ChronoUnit.MINUTES.between(earlyTime, laterTime);
 
         return isTimeDiffNegative(timeDiff) ? timeDiff + WHOLE_DAY_MINUTES : timeDiff;
 
@@ -32,8 +32,8 @@ public class MinutesBetweenHours {
     }
 
     private static String fitToRegex(final String stringHour) {
-        final var digits = stringHour.substring(0, stringHour.length() - 2);
-        final var dayPhase = stringHour.substring(stringHour.length() - 2);
+        final String digits = stringHour.substring(0, stringHour.length() - 2);
+        final String dayPhase = stringHour.substring(stringHour.length() - 2);
 
         return digits + " " + dayPhase;
     }
