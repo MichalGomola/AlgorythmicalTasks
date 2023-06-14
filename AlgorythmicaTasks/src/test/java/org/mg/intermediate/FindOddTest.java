@@ -1,13 +1,10 @@
-package org.mg;
-
-
+package org.mg.intermediate;
 
 import org.junit.jupiter.api.Test;
-import org.mg.intermediate.FindOdd;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class FindOddTest {
 
