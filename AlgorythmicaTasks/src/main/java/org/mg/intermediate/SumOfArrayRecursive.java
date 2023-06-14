@@ -2,6 +2,10 @@ package org.mg.intermediate;
 
 import java.util.Arrays;
 
+/**
+ * return sum of array items using recursion
+ * */
+
 public class SumOfArrayRecursive {
 
     public static int sum(int[] given) {

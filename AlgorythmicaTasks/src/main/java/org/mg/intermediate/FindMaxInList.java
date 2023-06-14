@@ -2,7 +2,9 @@ package org.mg.intermediate;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * find max in list with recursion
+ * */
 public class FindMaxInList {
 
     public static int recursive(List<Integer> given) {

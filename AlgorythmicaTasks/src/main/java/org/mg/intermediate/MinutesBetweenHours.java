@@ -4,6 +4,10 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 
+/**
+ * find difference between given times in minutes
+ * */
+
 public class MinutesBetweenHours {
 
     private static final String TIME_SEPARATOR = "-";

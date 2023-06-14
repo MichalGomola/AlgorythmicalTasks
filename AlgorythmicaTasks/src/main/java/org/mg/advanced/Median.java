@@ -2,6 +2,10 @@ package org.mg.advanced;
 
 import java.util.Arrays;
 
+/**
+ * find median from array
+ * */
+
 public class Median {
 
     public static double findMedian(final int[] given) {

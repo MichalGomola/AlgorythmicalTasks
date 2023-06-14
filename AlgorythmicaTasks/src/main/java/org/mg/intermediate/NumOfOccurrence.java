@@ -2,6 +2,10 @@ package org.mg.intermediate;
 
 import java.util.*;
 
+/**
+ * from array of int return list of numbers which occurs exactly n times
+ * */
+
 public class NumOfOccurrence {
 
     public static List<Integer> findNumbs(int numberOfOccurrence, int[] given) {

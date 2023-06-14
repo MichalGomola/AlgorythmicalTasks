@@ -1,5 +1,11 @@
 package org.mg.intermediate;
 
+
+/**
+ * return char occurence line in example
+ * aaabbbcc -> 3a3b2c
+ * */
+
 public class SumCharOccurence {
 
     public static String count(final String str) {

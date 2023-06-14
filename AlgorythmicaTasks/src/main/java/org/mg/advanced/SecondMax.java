@@ -2,6 +2,10 @@ package org.mg.advanced;
 
 import java.util.Arrays;
 
+/**
+ * find second amx number in given array
+ */
+
 public class SecondMax {
 
     public static int findSecondMax(int[] given) {

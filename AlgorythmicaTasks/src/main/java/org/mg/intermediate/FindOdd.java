@@ -3,7 +3,9 @@ package org.mg.intermediate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-
+/**
+ * find all odd numbers in list of Strings and return them as list of integers
+ * */
 public class FindOdd {
 
     private FindOdd(){}

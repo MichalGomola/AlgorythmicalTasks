@@ -1,7 +1,9 @@
 package org.mg.intermediate;
 
 import java.util.stream.IntStream;
-
+/**
+* Find factorial number in different ways
+* */
 public class FactorialNum {
 
     public static long recursive(int given) {
